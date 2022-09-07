@@ -1,0 +1,12 @@
+insert into Service_Location (sID, aID, has_m, has_u, has_s, has_k) values (608, 6185, 0, 0, 1, 0);
+insert into Service_Location (sID, aID, has_m, has_u, has_s, has_k) values (7634, 9649, 0, 0, 1, 1);
+insert into Service_Location (sID, aID, has_m, has_u, has_s, has_k) values (7670, 6824, 0, 0, 1, 0);
+insert into Service_Location (sID, aID, has_m, has_u, has_s, has_k) values (3254, 903, 0, 0, 1, 1);
+insert into Service_Location (sID, aID, has_m, has_u, has_s, has_k) values (7591, 7921, 1, 0, 1, 0);
+insert into Service_Location (sID, aID, has_m, has_u, has_s, has_k) values (4393, 6550, 0, 0, 1, 0);
+insert into Service_Location (sID, aID, has_m, has_u, has_s, has_k) values (3012, 1587, 0, 0, 1, 1);
+insert into Service_Location (sID, aID, has_m, has_u, has_s, has_k) values (5497, 7219, 1, 0, 1, 0);
+insert into Service_Location (sID, aID, has_m, has_u, has_s, has_k) values (9617, 2761, 0, 0, 1, 1);
+insert into Service_Location (sID, aID, has_m, has_u, has_s, has_k) values (2526, 1901, 0, 1, 1, 0);
+insert into Service_Location (sID, aID, has_m, has_u, has_s, has_k) values (9886, 6164, 0, 0, 1, 1);
+insert into Service_Location (sID, aID, has_m, has_u, has_s, has_k) values (6821, 7606, 0, 0, 1, 1);

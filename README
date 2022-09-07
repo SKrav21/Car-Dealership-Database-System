@@ -1,0 +1,87 @@
+Aslet Eleccentric Vehicles Final Project
+By: Steven Kravitz
+
+Section 1: The Main Menu Interface
+At the main menu, there are 5 options for the user to choose from by entering 1, 2, 3, 4, or 5. They are as follows:
+
+	Option 1: Log in
+	This menu is for customers who have existing accounts to log in. They enter their first and last name and the user logs them into
+	their account where they can access the Customer Main Menu. 
+
+	Option 2: Create Account
+	This option is for customers who do not already have accounts. It walks them through the steps that allow them to add a row for them in the databases
+	Customer entity, address entity (for their home), and payment entity (for their credit card info). After they create their account, they are logged
+	in and sent to the customer main menu.
+
+	Option 3: Employee Access
+	This option is for Employees to access. This tab takes them the employee main menu. Unlike in a real database system, there is no security measures to stop
+	anyone from accessing this menu. The focus of this project is not on security.
+	
+	Option 4: Browse Showroom
+	This tab allows users to select a service location and browse the vehicles in its showroom. Users can access this feature without needing an account or to 
+	access an employee tab.
+	
+	Option 5: Exit
+	This option closes the program.
+
+Section 2: The Customer Main Menu Interface
+At the customer main menu, there are 5 options which can be accessed in a similar fashion to the main menu. They are as follows:
+	
+	Option 1: Browse Showroom
+	This option allows the customers to browse the showroom. The functionality is the exact same as from the main menu. The reason this option is here is such 
+	that customers do not need to log out to the main menu to see the showrooms.
+
+	Option 2: Select Vehicle
+	This option allows users to buy vehicles. They get to choose which specifications they want including the model, whether or not the vehicle is used or new,
+	and capacity. The user is presented with the vehicles on hand which meet their specifications. The user see all the information about the vehicle including
+	the VIN, color, model, year, capacity, base price, miles, and service center. If the vehicle is used, the customer can see if the vehicle has any upgrades
+	or an upgrade package or neither. If the vehicle is new, the user is shown all the available upgrades and upgrade packages and is prompted to choose if they
+	want to include any. Afterwards, a transaction is made and the ownership is transferred to the customer.
+
+	Option 3: View Account Information
+	This option takes the user to an interface that allows them to see their account information. This is described in Section 3.
+
+	Option 4:
+	This option allows the user to get their vehicle serviced. The number of miles is increased by a random amount to simulate how much the odometer would have increased
+	since the customers last visit. The customer pays a relatively small amount and the maintence entity gets a new row for this new maintenance appointment.
+
+	Option 5: Exit
+	This option logs the user out by returning to the main menu.
+
+Section 3: Customer Account Interface
+At the customer account menu, the customer is given options to see information about them stored in the database. They have 4 options.
+	
+	Option 1: View Customer Info
+	This option prints out the customer ID, name, phone, and email.
+
+	Option 2: View Address
+	This option prints out the user's address ID, Planet/Celestial body, environment, and street address.
+
+	Option 3: View Payment
+	This option prints out the users payment ID, credit card number, expiration date, security code, and company.
+
+	Option 4: Exit
+	This option exits this interface and returns to the customer main menu.
+
+Section 4: Employee Menu Interface
+At this menu, the employee schedule repairs and issue recalls. The options are listed below.
+	
+	Option 1: Browse the Showrooms
+	The employee can browse the showrooms without needing to return to the main menu.
+	
+	Option 2:
+	The employee can see which customers have over 950,000,000,000 miles on their vehicle and contact them to schedule repairs.
+
+	Option 3:
+	The employee can select a specific year and model of vehicle to be recalled. They are then given the contact information of customers who own such vehicles.
+
+	Option 4: Exit
+	This option returns to the main menu.
+
+Section 5: Data Generation
+Most of the data used in the making of this project was generated in Mockaroo. There were some errors noticed after the data was already implemented so there are
+SQL files to fix those errors.
+
+Section 6:
+ER diagram. There were a couple of small changes made to the ER diagram. A couple relationships were changed from one-to-one to one-to-many. Additonally, a relationship
+was added between Customer and payment. Finally a few variables names were altered in the transaction entity.
